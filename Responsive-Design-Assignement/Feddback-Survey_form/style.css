@@ -1,0 +1,67 @@
+.container{
+    margin: 100px;
+    padding: 20px;
+    border: 1px solid grey;
+    height: 1080px;
+
+}
+
+.row{
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    /* font-style: italic; */
+    align-items: center;
+    /* background-color: rgb(227, 222, 222); */
+}
+
+p{
+    display: flex;
+    justify-content: start;
+    align-self: flex-start;
+    /* padding-top: 5px; */
+}
+
+h5{
+    display: flex;
+    justify-content: start;
+    align-self: flex-start;   
+}
+
+.required-astriek{
+    color: red;
+}
+
+.ratings{
+    padding-top: 2px;
+    height: 22px;
+    width: 5px;
+    display: flex;
+
+    /* align-self: flex-start; */
+    /* flex-direction: column; */
+    padding-bottom: 2px;
+    word-spacing: 2px;   
+    flex-shrink: inherit;
+}
+
+.ratings .ratings1:hover{
+    content: url('./icons/star.png');
+}
+.table-striped tbody td tr,
+.table-striped tbody th td{
+  text-align: center;
+  display: flex;
+  position: relative;
+  flex-wrap: inherit;
+  flex-shrink: 300px;
+
+}
+
+.submit-btn{
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;  
+    font-size: 20px;
+}
+

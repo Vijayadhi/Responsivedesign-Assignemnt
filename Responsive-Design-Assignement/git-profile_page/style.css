@@ -1,0 +1,75 @@
+body {
+    background-color: #dce0db;
+}
+
+nav {
+    background-color: #2f3d46;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    color: rgb(248, 250, 252);
+    font-size: 1.5rem;
+}
+
+.nav-logo img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.search-bar {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    /* background-color: #3d3d3d; */
+
+}
+
+
+.content-wrapper {
+    padding: 20px;
+}
+
+.content-wrapper .sidebar,
+.content-wrapper .main-content,
+.content-wrapper .extra-content {
+    background-color: #3d3d3d;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.sidebar {
+    height: auto;
+    min-height: 500px;
+}
+
+.main-content {
+    height: auto;
+    min-height: 150px;
+    margin-bottom: 20px;
+}
+
+.extra-content {
+    height: auto;
+    min-height: 150px;
+}
+
+/* Spacing for the layout */
+.row > .col-md-4 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.row {
+    margin-left: 5px;
+    margin-right: 5px;
+}
